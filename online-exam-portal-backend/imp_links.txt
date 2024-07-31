@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/4329396/mysql-select-10-random-rows-from-600k-rows-fast
+
+https://stackoverflow.com/questions/51712724/how-to-allow-a-user-only-access-their-own-data-in-spring-boot-spring-security
+
+https://stackoverflow.com/questions/58992493/spring-security-permitting-access-only-to-own-ressources

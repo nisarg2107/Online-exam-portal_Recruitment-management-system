@@ -1,0 +1,148 @@
+.ant-layout-header {
+    font-size: larger;
+    font-weight: 400;
+    display: flex;
+    place-content: center;
+}
+
+.sidebar {
+    // min-width: 768px;
+
+    @media (max-width: 767px) {
+        height: 100vh;
+        position: absolute !important;
+        z-index: 10
+    }
+}
+
+.main {
+    margin: 24px 16px;
+    max-height: 80% !important;
+
+    @media (max-width: 767px) {
+        max-height: 90% !important;
+
+        td.ant-table-cell {
+            @media (max-width: 767px) {
+
+                position: relative !important;
+                width: auto !important;
+                right: unset;
+                left: unset;
+            }
+
+        }
+
+        .css-dev-only-do-not-override-1rqnfsa {
+            position: relative !important;
+            width: auto !important;
+            right: unset;
+            left: unset;
+        }
+    }
+}
+
+.header {
+    display: block;
+
+    button {
+        float: right;
+        // text-align: end;
+        margin-top: 1rem;
+        margin-right: 2%;
+    }
+}
+
+
+
+td.ant-table-cell-fix-right {
+    @media (max-width: 767px) {
+
+        position: relative !important;
+        width: auto !important;
+        right: unset;
+        left: unset;
+    }
+}
+
+td.ant-table-cell-fix-left {
+    @media (max-width: 767px) {
+
+        position: relative !important;
+        left: auto;
+        width: auto !important;
+        right: unset;
+        left: unset;
+        // width: auto !important;
+    }
+}
+
+// .footer {
+//     @media (max-width: 767px) {
+//         position: 'fixed';
+//         bottom: 0;
+//         width: '100%';
+//     }
+// }
+
+// .ant-table-cell-row-hover {
+//     &:hover {
+//         background-color: yellow !important;
+//     }
+// }
+
+// tr {
+//     &:hover {
+
+//         >td {
+//             background-color: rgb(225, 236, 244) !important;
+
+//             >table {
+//                 background-color: inherit;
+//             }
+//         }
+//     }
+// }
+
+thead {
+    .ant-table-row-expand-icon-cell::before {
+        content: "Expand" !important;
+
+        @media (max-width: 767px) {
+            content: '' !important;
+        }
+    }
+
+    // .ant-table-row-expand-icon-cell {
+    //     width: 30%;
+    // }
+}
+
+col.ant-table-expand-icon-col {
+    width: 5rem !important;
+
+    @media (max-width: 767px) {
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        max-width: 0 !important;
+    }
+}
+
+.ant-table-row-expand-icon-cell {
+    @media (max-width: 767px) {
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        max-width: 0 !important;
+    }
+}
+
+.ant-table-pagination {
+    @media (max-width: 767px) {
+        width: max-content;
+        margin: 16px auto !important;
+    }
+}
